@@ -1,7 +1,7 @@
 import React from "react";
-import "style.css";
+import "./style.css";
 
-const MatchCard = props => (
+const Cards = props => (
 	<div onClick={() => props.setClicked(props.id)} className="card">
 		<div className="img-container">
       		<img alt={props.name} src={props.image} />

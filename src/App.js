@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Cards from "./Cards";
+import Cards from "./components/Cards";
 import Wrapper from "./components/Wrapper";
 import Header from "./components/Header";
 import cards from "./cards.json";
@@ -69,11 +69,12 @@ class App extends Component {
     };
 
     render() {
+        console.log("Cards: ", this.state.cards);
         return (
             <Wrapper>
                 <Header>To boldly click where no one has clicked before!</Header>
                 {this.state.cards.map(card => (
-                    <cards
+                    <Cards
                         setClicked={this.setClicked}
                         id={card.id}
                         key={card.id}
