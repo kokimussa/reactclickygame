@@ -1,7 +1,8 @@
-React Clicky Game
-
-React Clicky game: a memory game with React
+React Clicky Game: a memory game with React
 
 React app using HTML, CSS, Javascript, React, NPM Packages and Heroku
+
+
+![alt React Clicky Game]( https://github.com/kokimussa/reactclickygame/blob/master/reactclickygame.png)
 
 
